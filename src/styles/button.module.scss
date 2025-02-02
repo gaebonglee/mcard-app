@@ -1,0 +1,51 @@
+@import "./utils.scss";
+
+.button {
+  &--primary {
+    background-color: $blue;
+    color: $white;
+  }
+
+  &--success {
+    background-color: $green;
+    color: $white;
+  }
+
+  &--error {
+    background-color: $red;
+    color: $white;
+  }
+
+  &--weak-primary {
+    background-color: $white;
+    color: $blue;
+    border: 1px solid $blue;
+  }
+
+  &--weak-success {
+    background-color: $white;
+    color: $green;
+    border: 1px solid $green;
+  }
+
+  &--weak-error {
+    background-color: $white;
+    color: $red;
+    border: 1px solid $red;
+  }
+
+  &--small {
+    font-size: 13px;
+    padding: 8px 9px;
+  }
+
+  &--medium {
+    font-size: 15px;
+    padding: 10px 15px;
+  }
+
+  &--large {
+    font-size: 18px;
+    padding: 12px 10px;
+  }
+}
